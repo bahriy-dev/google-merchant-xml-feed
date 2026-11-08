@@ -157,8 +157,8 @@ Render options: `invalid: 'skip' | 'throw' | 'off'` (default `'skip'`), `onIssue
 - **Upload to Merchant Center.** Host the file and add it as a scheduled fetch, or push it with the Merchant API.
 - **Decide categories, tax or legal texts for you.** `googleProductCategory`, prices including VAT, and so on are
   your data.
-- **Cover other channels' required fields.** Meta Commerce Manager and some marketplaces accept the same RSS 2.0 +
-  `g:` format but have their own required fields. Check their specs.
+- **Guarantee other channels.** Other catalogue importers often read RSS 2.0 with the `g:` namespace too, but each has
+  its own required fields and rules. Check the channel's spec before reusing the feed.
 
 Validation rules follow Google's [product data specification](https://support.google.com/merchants/answer/7052112)
 and [RSS 2.0 feed format](https://support.google.com/merchants/answer/14987622).
