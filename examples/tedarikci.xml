@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A typical Turkish supplier (tedarikçi / bayi) catalogue. Fictional products and domain. -->
+<Urunler>
+  <Urun kod="ELB-001">
+    <UrunAdi>Keten Gömlek Elbise - Bej</UrunAdi>
+    <Aciklama><![CDATA[<p>%100 keten, <b>yazlık</b> elbise.</p>]]></Aciklama>
+    <Marka>Örnek Moda</Marka>
+    <Barkod>8690000000012</Barkod>
+    <Fiyat>1.299,90</Fiyat>
+    <IndirimliFiyat>999,90</IndirimliFiyat>
+    <Stok>14</Stok>
+    <Kategori>Kadın &gt; Giyim &gt; Elbise</Kategori>
+    <Resimler><Resim>https://cdn.ornek-magaza.com.tr/elb-001-1.jpg</Resim><Resim>https://cdn.ornek-magaza.com.tr/elb-001-2.jpg</Resim></Resimler>
+    <Url>https://www.ornek-magaza.com.tr/keten-gomlek-elbise-bej</Url>
+  </Urun>
+  <Urun kod="KUP-002">
+    <UrunAdi>Gümüş Küpe &amp; Kolye Seti</UrunAdi>
+    <Aciklama>925 ayar gümüş.</Aciklama>
+    <Marka>Örnek Takı</Marka>
+    <Barkod>0012345678905</Barkod>
+    <Fiyat>2499.5</Fiyat>
+    <Stok>0</Stok>
+    <Kategori>Aksesuar &gt; Takı</Kategori>
+    <Resimler><Resim>https://cdn.ornek-magaza.com.tr/kup-002.jpg</Resim></Resimler>
+    <Url>https://www.ornek-magaza.com.tr/gumus-kupe-kolye-seti</Url>
+  </Urun>
+  <Urun kod="CNT-003">
+    <UrunAdi>Deri Sırt Çantası</UrunAdi>
+    <Aciklama>Hakiki deri.</Aciklama>
+    <Marka>Örnek Deri</Marka>
+    <Barkod>8690000000013</Barkod>
+    <Fiyat>3.750,00 TL</Fiyat>
+    <Stok>3</Stok>
+    <Resimler><Resim>https://cdn.ornek-magaza.com.tr/cnt-003.jpg</Resim></Resimler>
+    <Url>https://www.ornek-magaza.com.tr/deri-sirt-cantasi</Url>
+  </Urun>
+  <Urun kod="HTL-004">
+    <UrunAdi>Hatalı Fiyatlı Ürün</UrunAdi>
+    <Fiyat>fiyat sorunuz</Fiyat>
+    <Stok>5</Stok>
+    <Resimler><Resim>https://cdn.ornek-magaza.com.tr/htl-004.jpg</Resim></Resimler>
+    <Url>https://www.ornek-magaza.com.tr/hatali</Url>
+  </Urun>
+</Urunler>
