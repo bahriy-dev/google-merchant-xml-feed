@@ -1,6 +1,6 @@
 # ecommerce-xml-feed
 
-[![CI](https://github.com/bahriy-dev/ecommerce-xml-feed/actions/workflows/ci.yml/badge.svg)](https://github.com/bahriy-dev/ecommerce-xml-feed/actions/workflows/ci.yml)
+[![CI](https://github.com/bahriy-dev/google-merchant-xml-feed/actions/workflows/ci.yml/badge.svg)](https://github.com/bahriy-dev/google-merchant-xml-feed/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 
