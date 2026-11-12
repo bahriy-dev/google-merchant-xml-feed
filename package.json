@@ -2,16 +2,41 @@
   "name": "ecommerce-xml-feed",
   "version": "1.0.0",
   "description": "Build Google Merchant Center product feeds (RSS 2.0 XML) and import supplier / dealer XML catalogues (tedarikçi XML, bayi XML) in TypeScript. Validation, GTIN checks, streaming for large catalogues.",
-  "keywords": ["google-merchant-center", "google-shopping", "product-feed", "xml-feed", "rss", "e-commerce", "ecommerce", "gtin", "ean", "supplier-xml", "tedarikci-xml", "bayi-xml", "xml-entegrasyon", "typescript"],
+  "keywords": [
+    "google-merchant-center",
+    "google-shopping",
+    "product-feed",
+    "xml-feed",
+    "rss",
+    "e-commerce",
+    "ecommerce",
+    "gtin",
+    "ean",
+    "supplier-xml",
+    "tedarikci-xml",
+    "bayi-xml",
+    "xml-entegrasyon",
+    "typescript"
+  ],
   "license": "MIT",
   "author": "Bahri Yılmaz (https://bahriyilmaz.dev)",
-  "repository": { "type": "git", "url": "git+https://github.com/bahriy-dev/google-merchant-xml-feed.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahriy-dev/google-merchant-xml-feed.git"
+  },
   "homepage": "https://github.com/bahriy-dev/google-merchant-xml-feed#readme",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": { ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
-  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
@@ -24,10 +49,12 @@
     "fast-xml-parser": "^5.11.2"
   },
   "devDependencies": {
-    "@types/node": "^24",
+    "@types/node": "^26.6.6",
     "tsx": "^4.23.15",
-    "typescript": "^5",
+    "typescript": "^7.0.2",
     "vitest": "5.1.0"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }
